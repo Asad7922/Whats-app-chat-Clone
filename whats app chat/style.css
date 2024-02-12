@@ -1,0 +1,168 @@
+.chatbox-container {
+    margin: 50px 314px 0px 314px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.575), 0 6px 20px 0 rgba(0, 0, 0, 0.671);
+}
+
+/*--------header----------*/
+.xheader {
+
+    background-color: #202c33;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.xheader img {
+    padding: 10px;
+    width: 80px;
+    border-radius: 100%;
+
+}
+
+.xheader h2 {
+    padding-top: 13px;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+
+.right-path {
+    display: flex;
+}
+
+.menu ul {
+    margin-top: 35px;
+
+    font-size: 30px;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 15px;
+}
+
+/*----------------chat-box---------------*/
+.asad-chatbox {
+
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.message-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-message-container {
+    justify-content: flex-end;
+}
+
+.robot-message-container {
+    justify-content: flex-start;
+}
+
+.message {
+    padding: 5px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.user-message {
+    background-color: #005c4b;
+    color: #fff;
+}
+
+.robot-message {
+    background-color: #202c33;
+    color: white;
+}
+
+
+.time {
+    padding-top: 40px;
+
+}
+
+.time span {
+    font-size: 10px;
+
+}
+
+.time ion-icon {
+    font-size: 20px;
+
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+   padding-bottom: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.input-field {
+    flex: 1;
+    padding-right: 40px;
+    /* Added padding for mic icon */
+}
+
+.send-button {
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    background-color: #202c33;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.asad-form {
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: #202c33;
+    border-radius: 20px;;
+}
+
+.emoji-button {
+    position: absolute;
+    left: 15px;
+    top: 7px;
+    background-color: #202c33;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.text-button {
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    background-color: #202c33;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
